@@ -183,7 +183,7 @@ var app = new Vue({
 		printUserList() {
 			// API call
 			axios
-			.get('https://api.myjson.com/bins/1fl9j4')
+			.get('js/user-list-BACKUP.json')
 			.then((response) => {
 				this.userList = response.data;
 			});
@@ -307,4 +307,3 @@ var app = new Vue({
 		this.printUserList();
 	}
 })
-  
