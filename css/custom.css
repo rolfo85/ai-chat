@@ -1,0 +1,302 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 320px;
+    color: #35353a;
+}
+
+h1, h2 {
+    margin-bottom: initial;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+small {
+    opacity: 0.5;
+}
+
+*:hover, *:focus {
+    text-decoration: none !important;
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.10em 0.10em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+    width: 0.45em;
+    margin-top: 0.5rem;
+}
+
+.chevron.right:before {
+	left: 0;
+	transform: rotate(45deg);
+}
+
+.chevron.left:before {
+	left: 0.25em;
+	transform: rotate(-135deg);
+}
+
+.ipad {
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    max-height: 55rem;
+    max-width: 70rem;
+    padding-bottom: 5rem;
+    transform: scale(1);
+    background-color: #eef0f2;
+}
+
+.ipad:after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e8ebed;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-shadow: inset 0px -1px 0px rgba(0,0,0,0.2);
+}
+
+.overlay {
+    backdrop-filter: blur(5px);
+    z-index: 10;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.popup-page {
+    max-width: 30rem;
+}
+
+.no-data {
+    min-height: 100%;
+}
+
+.no-data img {
+    max-width: 6rem;
+}
+
+.no-data .caption {
+    opacity: 0.5;
+}
+
+.add-user {
+    width: 7rem;
+    height: 5rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.add-user.corner {
+    height: 3rem;
+    bottom: 1rem;
+    top: auto;
+    left: 0rem;
+    right: auto;
+}
+
+.add-user.corner h2 {
+    display: none;
+}
+
+.add-user button {
+    transform: scale(1.5);
+    width: 35px;
+    height: 35px;
+    line-height: 1px;
+}
+
+.btn-close {
+    right: 3rem;
+}
+
+.users-list {
+    z-index: 10;
+}
+
+.wrap-conversations {
+    width: 20rem;
+}
+
+.list-group-item {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.list-group-item:hover .delete-chat {
+    right: 1rem;
+}
+
+.list-group-item:hover .chevron {
+    transform: translateX(-2rem);
+}
+
+.list-group-item .delete-chat,
+.list-group-item .chevron {
+    transition: 0.3s ease;
+    transition-property: right, transform;
+}
+
+.list-group-item .delete-chat {
+    width: 1rem;
+    right: -1rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.list-group-item.is-active {
+    background-color: white !important;
+    box-sizing: initial !important;
+    width: 17.3rem;
+    border-left: 4px solid #007bff !important;
+}
+
+.list-group-item.is-active a {
+    display: none;
+}
+
+.wrap-conversation {
+    height: calc(100% - 5rem);
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.card {
+    max-width: 20rem;
+}
+
+.card.myself {
+    background-color: #eef0f2 !important;
+}
+
+.jumbotron {
+    right: 0;
+    bottom: 0;
+    height: 5rem;
+    width: calc(100% - 20rem);
+    overflow: hidden;
+}
+
+.jumbotron button.disabled {
+    cursor: initial;
+}
+
+.img-thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.preloader {
+    width: 60px;
+    position: fixed;
+    bottom: 11rem;
+}
+
+.add-btn {
+    font-size: 25px;
+}
+
+.fixed-min-width {
+    min-width: 6rem;
+}
+
+.top-bar-messages-smartphone {
+    display: none;
+}
+.top-bar-messages-smartphone img {
+    width: 35px;
+    height: 35px;
+}
+
+@media screen and (max-width: 700px) {
+    
+    main {        
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+    }
+
+    main .wrap-conversations {
+        width: inherit;
+        border-right: initial !important;
+    }
+
+    main .wrap-conversations .list-group-item.is-active {
+        width: initial;
+        border-left: 0 !important;
+    }
+    
+    main .wrap-conversations .list-group-item.is-active a {
+        display: inline;
+    }
+
+    main .wrap-conversation {
+        overflow: auto;
+        position: absolute;
+        width: 100%;
+        right: 0;
+        background-color: white;
+    }
+
+    .top-bar-messages-smartphone {
+        display: flex;
+    }
+
+    .top-bar-messages-smartphone div:first-child {
+        cursor: pointer;
+    }
+
+    .top-bar-messages-smartphone .chevron {
+        padding-right: 0.6rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .jumbotron {
+        width: 100%;
+        height: 5rem;
+    }
+   
+    .add-user.corner {
+        bottom: 1rem;
+    }
+
+    .slide-fade-enter-active,
+    .slide-fade-leave-active,
+    .slide-fade-up-enter-active,
+    .slide-fade-up-leave-active {
+        transition: all .3s ease;
+    }
+    
+    .slide-fade-enter, .slide-fade-leave-to {
+        transform: translateX(100vw);
+    }
+    
+    .slide-fade-up-enter, .slide-fade-up-leave-to {
+        height: 0;
+    }
+
+}

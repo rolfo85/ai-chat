@@ -1,0 +1,152 @@
+[
+    {
+      "_id": "5dfe3c493548420788496f4a",
+      "profilePicUrl": "./images/profile-pic/jean.jpg",
+      "name": "Jean Morrow",
+      "position": "SEO Specialist"
+    },
+    {
+      "_id": "5dfe3c49d1b5d37668f60116",
+      "profilePicUrl": "./images/profile-pic/glass.jpg",
+      "name": "Glass Mendez",
+      "position": "Manager"
+    },
+    {
+      "_id": "5dfe3c49a7659ee18fbd4019",
+      "profilePicUrl": "./images/profile-pic/jessica.jpg",
+      "name": "Jessica Alston",
+      "position": "Manager"
+    },
+    {
+      "_id": "5dfe3c49885a0d319d73a6d5",
+      "profilePicUrl": "./images/profile-pic/elinor.jpg",
+      "name": "Elinor Huffman",
+      "position": "SEO Specialist"
+    },
+    {
+      "_id": "5dfe3c49db76b9ee532efbac",
+      "profilePicUrl": "./images/profile-pic/jack.jpg",
+      "name": "Jack Payne",
+      "position": "SEO Specialist"
+    },
+    {
+      "_id": "5dfe3c49edec1dca8ac6f70c",
+      "profilePicUrl": "./images/profile-pic/leann.jpg",
+      "name": "Leann Perkins",
+      "position": "Manager"
+    },
+    {
+      "_id": "5dfe3c49c9a377d98eb78062",
+      "profilePicUrl": "./images/profile-pic/ernestine.jpg",
+      "name": "Ernestine Oconnor",
+      "position": "Data Analyst"
+    },
+    {
+      "_id": "5dfe3c49a8553eb60f5b8835",
+      "profilePicUrl": "./images/profile-pic/haley.jpg",
+      "name": "Haley Ford",
+      "position": "SEO Specialist"
+    },
+    {
+      "_id": "5dfe3c49c6df32ee64946130",
+      "profilePicUrl": "./images/profile-pic/french.jpg",
+      "name": "French Harrington",
+      "position": "Manager"
+    },
+    {
+      "_id": "5dfe3c493267fdfbe7900c2f",
+      "profilePicUrl": "./images/profile-pic/blanca.jpg",
+      "name": "Blanca Bowman",
+      "position": "SEO Specialist"
+    },
+    {
+      "_id": "5dfe3c49f882a377d4872b3f",
+      "profilePicUrl": "./images/profile-pic/alex.jpg",
+      "name": "Alex Henson",
+      "position": "UI/UX Designer"
+    },
+    {
+      "_id": "5dfe3c496f89d16702d2f592",
+      "profilePicUrl": "./images/profile-pic/jenny.jpg",
+      "name": "Jenny Mcdonald",
+      "position": "Accountant"
+    },
+    {
+      "_id": "5dfe3c49a09c0f72a5debcf9",
+      "profilePicUrl": "./images/profile-pic/antoinette.jpg",
+      "name": "Antoinette Gamble",
+      "position": "Accountant"
+    },
+    {
+      "_id": "5dfe3c4998a1c3167a6f097b",
+      "profilePicUrl": "./images/profile-pic/mark.jpg",
+      "name": "Mark Gill",
+      "position": "SEO Specialist"
+    },
+    {
+      "_id": "5dfe3c4977d9ce0c9d66d583",
+      "profilePicUrl": "./images/profile-pic/gayle.jpg",
+      "name": "Gayle Chandler",
+      "position": "Data Analyst"
+    },
+    {
+      "_id": "5dfe3c49e4d245f992e3d7ed",
+      "profilePicUrl": "./images/profile-pic/frank.jpg",
+      "name": "Frank England",
+      "position": "UI/UX Designer"
+    },
+    {
+      "_id": "5dfe3c49ce7ab5958966db72",
+      "profilePicUrl": "./images/profile-pic/velma.jpg",
+      "name": "Velma Langley",
+      "position": "Data Analyst"
+    },
+    {
+      "_id": "5dfe3c497466e87da61774ec",
+      "profilePicUrl": "./images/profile-pic/chandra.jpg",
+      "name": "Chandra Webster",
+      "position": "SEO Specialist"
+    },
+    {
+      "_id": "5dfe3c49558bfd56487dd3e9",
+      "profilePicUrl": "./images/profile-pic/jason.jpg",
+      "name": "Jason Leon",
+      "position": "Accountant"
+    },
+    {
+      "_id": "5dfe3c49a95f6bb1ff0f9ac6",
+      "profilePicUrl": "./images/profile-pic/tucker.jpg",
+      "name": "Tucker Larsen",
+      "position": "UI/UX Designer"
+    },
+    {
+      "_id": "5dfe3c49740ae2085c3371a9",
+      "profilePicUrl": "./images/profile-pic/angelina.jpg",
+      "name": "Angelina Hoffman",
+      "position": "Software Engineer"
+    },
+    {
+      "_id": "5dfe3c49a15b156f8148479a",
+      "profilePicUrl": "./images/profile-pic/denise.jpg",
+      "name": "Denise Shannon",
+      "position": "Software Engineer"
+    },
+    {
+      "_id": "5dfe3c49876f48429275d97f",
+      "profilePicUrl": "./images/profile-pic/rogers.jpg",
+      "name": "Rogers Keller",
+      "position": "UI/UX Designer"
+    },
+    {
+      "_id": "5dfe3c49e1323ed5e60b71c3",
+      "profilePicUrl": "./images/profile-pic/tate.jpg",
+      "name": "Tate Medina",
+      "position": "UI/UX Designer"
+    },
+    {
+      "_id": "5dfe3c498286ace492eb6051",
+      "profilePicUrl": "./images/profile-pic/benjamin.jpg",
+      "name": "Benjamin Goff",
+      "position": "Data Analyst"
+    }
+  ]
